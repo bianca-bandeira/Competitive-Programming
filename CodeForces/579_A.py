@@ -1,0 +1,5 @@
+n = int(input())
+x = str(bin(n))
+l = x.split('b')
+l.pop(0)
+print(l[0].count('1'))
